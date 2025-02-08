@@ -18,9 +18,21 @@ def sum_sith_while(n):
 def inner_function(n):
     print(sum(range(1, n+1)))
 
+# 4. 수열의 합 구하는 공식으로 구하기
+def sequence_sum(n):
+    result = (1+n) * n /2
+    print(result)
+
+# 5. 합(백준) : https://www.acmicpc.net/problem/8393
+def problem_8393(n):
+    print((1+n) * n /2)
+
+
+# main 함수로 호출
+
 def main():
     n = int(input('n값을 입력해주세요: '))
-    inner_function(n)
+    problem_8393(n)
 
 if __name__ == "__main__":
     main()
